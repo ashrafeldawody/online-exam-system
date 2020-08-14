@@ -1,0 +1,24 @@
+[10-Apr-2020 14:46:29 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE o6u_onlineq.Result_getQuestionsAnswers does not exist in /home/rpz73n483avt/public_html/instructor/app/model/result.class.php:105
+Stack trace:
+#0 /home/rpz73n483avt/public_html/instructor/app/model/result.class.php(105): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/instructor/app/view/results.php(19): result->getQuestionAnswers('36')
+#2 /home/rpz73n483avt/public_html/instructor/index.php(18): require_once('/home/rpz73n483...')
+#3 {main}
+  thrown in /home/rpz73n483avt/public_html/instructor/app/model/result.class.php on line 105
+[11-Apr-2020 02:14:48 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ra.resultID,ra.questionID) AS GivenAnswers,
+            getQuestionRightAnswers' at line 2 in /home/rpz73n483avt/public_html/instructor/app/model/result.class.php:113
+Stack trace:
+#0 /home/rpz73n483avt/public_html/instructor/app/model/result.class.php(113): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/instructor/app/view/results.php(139): result->getQuestionAnswers('36')
+#2 /home/rpz73n483avt/public_html/instructor/index.php(18): require_once('/home/rpz73n483...')
+#3 {main}
+  thrown in /home/rpz73n483avt/public_html/instructor/app/model/result.class.php on line 113
+[11-Apr-2020 02:14:49 Africa/Cairo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(ra.resultID,ra.questionID) AS GivenAnswers,
+            getQuestionRightAnswers' at line 2 in /home/rpz73n483avt/public_html/instructor/app/model/result.class.php:113
+Stack trace:
+#0 /home/rpz73n483avt/public_html/instructor/app/model/result.class.php(113): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/instructor/app/view/results.php(139): result->getQuestionAnswers('36')
+#2 /home/rpz73n483avt/public_html/instructor/index.php(18): require_once('/home/rpz73n483...')
+#3 {main}
+  thrown in /home/rpz73n483avt/public_html/instructor/app/model/result.class.php on line 113
+[11-Apr-2020 12:49:57 Africa/Cairo] PHP Warning:  Division by zero in /home/rpz73n483avt/public_html/instructor/app/view/results.php on line 18

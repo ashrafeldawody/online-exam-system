@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=B612|Cairo|Roboto&display=swap');
+/* Start Navbar */
+.navbar {
+    padding: 0px 10px !important;
+}
+.navbar .navbar-brand
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.navbar .navbar-brand .logo {
+    max-height: 70px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link
+{
+   font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+}
+/* End Navbar */
+
+/* start header */
+header {
+    height: 550px;
+    position: relative;
+    transition: all 1s;
+}
+
+header .header-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 29px 0 16px 5px #00000094;
+}
+
+header .header-overlay .header-title h1
+{
+    margin-top: 10px;
+    font-family: 'Roboto', sans;
+    font-size: 60px;
+}
+header .header-overlay .header-title .title-link
+{
+   font-family: 'B612', sans-serif;
+    white-space: nowrap;
+}
+/* end header */
+
+/*Start media Query*/
+@media only screen and (max-width: 768px)
+{
+
+    header
+    {
+        height: 500px;
+    }
+  header .header-overlay .header-title h1
+    {
+        font-size: 45px;
+    }
+}
+/*End media Query*/
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/loading.gif');
+   background-repeat: no-repeat;
+   background-color: #FFF;
+   background-position: center;
+}
+.user-pic {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 20px auto 20px;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    border-top: 3px solid #007bff;
+    border-bottom: 3px solid #007bff;
+    transform: rotate(-30deg);
+    transition: 0.5s;
+}
+.card-box:hover .user-pic {
+    transform: rotate(0deg);
+    transform: scale(1.1);
+}
+.card-box {
+    padding: 15px;
+    background-color: #fdfdfd;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 8px 0px #d4d4d4;
+    transition: 0.5s;
+}
+.card-box:hover {
+  border: 1px solid #007bff;
+}
+.card-box p {
+    color: #808080;
+}

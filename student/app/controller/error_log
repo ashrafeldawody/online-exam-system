@@ -1,0 +1,88 @@
+[06-Apr-2020 09:29:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function test::sendResultMails(), 0 passed in /home/rpz73n483avt/public_html/student/app/controller/test.inc.php on line 44 and exactly 2 expected in /home/rpz73n483avt/public_html/student/app/model/test.class.php:362
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(44): test->sendResultMails()
+#1 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 362
+[06-Apr-2020 09:31:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function test::sendResultMails(), 0 passed in /home/rpz73n483avt/public_html/student/app/controller/test.inc.php on line 44 and exactly 2 expected in /home/rpz73n483avt/public_html/student/app/model/test.class.php:362
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(44): test->sendResultMails()
+#1 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 362
+[10-Apr-2020 04:32:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/rpz73n483avt/public_html/student/app/model/test.class.php:195
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(195): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/model/test.class.php(203): test->insertRandomRule('29', '62', '1', '1')
+#2 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(29): test->InitiateRandoms()
+#3 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 195
+[10-Apr-2020 04:34:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' at line 7 in /home/rpz73n483avt/public_html/student/app/model/test.class.php:195
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(195): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/model/test.class.php(203): test->insertRandomRule('29', '62', '1', '1')
+#2 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(29): test->InitiateRandoms()
+#3 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 195
+[10-Apr-2020 04:45:37 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/rpz73n483avt/public_html/student/app/model/test.class.php:194
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(203): test->insertRandomRule('29', '62', '1', '1')
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(29): test->InitiateRandoms()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 194
+[10-Apr-2020 04:47:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO tempquestions(resultID, questionID)
+        SELECT (SELECT MAX(id) F' at line 2 in /home/rpz73n483avt/public_html/student/app/model/test.class.php:216
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(216): PDO->prepare('Delete from tem...')
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(25): test->InitiateFixed_Random()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 216
+[10-Apr-2020 04:51:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO tempquestions(resultID, questionID)
+        SELECT (SELECT MAX(id) F' at line 2 in /home/rpz73n483avt/public_html/student/app/model/test.class.php:216
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(216): PDO->prepare('Delete from tem...')
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(25): test->InitiateFixed_Random()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 216
+[10-Apr-2020 04:52:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO tempquestions(resultID, questionID)
+        SELECT (SELECT MAX(id) F' at line 2 in /home/rpz73n483avt/public_html/student/app/model/test.class.php:216
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(216): PDO->prepare('Delete from tem...')
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(25): test->InitiateFixed_Random()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 216
+[10-Apr-2020 05:01:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' at line 7 in /home/rpz73n483avt/public_html/student/app/model/test.class.php:195
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(195): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/model/test.class.php(203): test->insertRandomRule('29', '62', '1', '1')
+#2 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(29): test->InitiateRandoms()
+#3 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 195
+[11-Apr-2020 07:15:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/rpz73n483avt/public_html/student/app/model/test.class.php:119
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(119): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(8): test->getMyQuestions()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 119
+[11-Apr-2020 07:15:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/rpz73n483avt/public_html/student/app/model/test.class.php:119
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(119): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(8): test->getMyQuestions()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 119
+[11-Apr-2020 07:15:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/rpz73n483avt/public_html/student/app/model/test.class.php:119
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(119): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(8): test->getMyQuestions()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 119
+[11-Apr-2020 07:16:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/rpz73n483avt/public_html/student/app/model/test.class.php:119
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(119): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(8): test->getMyQuestions()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 119
+[11-Apr-2020 07:22:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous in /home/rpz73n483avt/public_html/student/app/model/test.class.php:119
+Stack trace:
+#0 /home/rpz73n483avt/public_html/student/app/model/test.class.php(119): PDOStatement->execute()
+#1 /home/rpz73n483avt/public_html/student/app/controller/test.inc.php(8): test->getMyQuestions()
+#2 {main}
+  thrown in /home/rpz73n483avt/public_html/student/app/model/test.class.php on line 119
