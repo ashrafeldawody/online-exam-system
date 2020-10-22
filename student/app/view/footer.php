@@ -15,7 +15,7 @@
     <script src="style/js/pagination.init.js"></script>';
 	}
 	  if (defined('ContainsBackground')){
-	  echo '<script src="http://mt2arab.altervista.org/cdn/jquery.backstretch.js?latest"></script>
+	  echo '<script src="https://raw.githubusercontent.com/srobbin/jquery-backstretch/master/jquery.backstretch.min.js"></script>
 	  <script type="text/javascript">
 	  jQuery(document).ready(function(){
 		$.backstretch("https://i.imgur.com/qnL1prM.jpg");
