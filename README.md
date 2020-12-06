@@ -3,7 +3,7 @@
 This project is a part of the Digital transformation of 6th Of October University
 
 ## Demo
-You can see the Demo [Here](http://www.o6uexam.online)
+You can see the Demo [Here](http://online-exam.ashrafeldawody.com)
 
 ## Objectives 	
 This project is aimed at developing the online examination system process for students and instructors. The purpose of the system is to completely automate the old manual procedure of conducting an exam to
