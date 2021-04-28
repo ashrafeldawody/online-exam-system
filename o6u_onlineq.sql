@@ -98,7 +98,7 @@ CREATE TABLE `instructor`  (
 -- ----------------------------
 -- Records of instructor
 -- ----------------------------
-INSERT INTO `instructor` VALUES (7, 'System Administrator', 'o6uonlineexam@gmail.com', '61c0c844aa5711c04e6973e70a2a0149', '', NULL, NULL, 0, 1);
+INSERT INTO `instructor` VALUES (7, 'System Administrator', 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3', '', NULL, NULL, 0, 1);
 
 -- ----------------------------
 -- Table structure for instructor_invitations
