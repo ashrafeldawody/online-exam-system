@@ -15,5 +15,5 @@ a computerized system. The system will allow students to register and take the e
 3. login as instructor using admin using default email and password
 
 ## System Administrator Account
-email: admin@gmail.com
+email: admin@gmail.com <br>
 password: admin
