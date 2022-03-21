@@ -14,6 +14,10 @@ a computerized system. The system will allow students to register and take the e
 2. excute the attached sql database file
 3. login as instructor using admin using default email and password
 
-## System Administrator Account
-email: admin@gmail.com <br>
-password: admin
+## Instructor Account
+email: instructor@onlineexam.com <br>
+password: instructor
+
+## Student Account
+id: 201708091 <br>
+password: Student123
